@@ -1,11 +1,11 @@
 {
   "name": "converter",
   "version": "0.1.0",
-  "description": "weight converter from kg to gbp and so",
+  "description": "weight converter from kg to pounds and so",
   "main": "dist/src/converter.js",
   "scripts": {
     "build": "babel src/converter.js -d dsit",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
   "keywords": [
     "weight",
     "kg",
-    "gbp",
+    "pounds",
     "converter"
   ],
   "author": "PizzaSperoni",
@@ -24,6 +24,8 @@
   },
   "homepage": "https://github.com/pizzasperoni/weight-converter#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0"
+    "babel-cli": "^6.26.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1"
   }
 }

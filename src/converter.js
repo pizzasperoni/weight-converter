@@ -4,7 +4,7 @@ function converter (num, opt) {
     }else if (opt == 0) {
       return num / 2.20462
     }else{
-      console.log('Error: bad option')
+      return "Error"
     }
 } 
 
