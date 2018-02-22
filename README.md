@@ -51,7 +51,7 @@ npm run test
 
 * **Diego Speroni** - *Initial work* - [pizzasperoni](https://github.com/pizzasperoni) [twitter](https://twitter.com/PizzaSperoni)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/pizzasperoni/weight-converter/graphs/contributors) who participated in this project.
 
 ## License
 
