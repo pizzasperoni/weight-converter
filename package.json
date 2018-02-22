@@ -1,10 +1,10 @@
 {
-  "name": "converter",
+  "name": "kg-pounds-converter",
   "version": "0.1.0",
   "description": "weight converter from kg to pounds and so",
   "main": "dist/src/converter.js",
   "scripts": {
-    "build": "babel src/converter.js -d dsit",
+    "build": "babel src/converter.js -d dist",
     "test": "mocha"
   },
   "repository": {

@@ -1,10 +1,10 @@
 const expect = require('chai').expect
-const converter = require('../src/converter').default
+const converter = require('..').default
 
 describe('#converter', function (){
 
   it('if the option is 1, it must return a bigger value', function () {
-    const result = converter(10,1);
+    const result = converter(10,1); 
     expect(result).to.equal(22.0462);    
   }),
   it('if the option is 0, it must return a lower value', function () {
