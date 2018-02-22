@@ -1,6 +1,7 @@
-# Invented language translator
+# Weight converter
+From kg -> pounds & pounds -> kg
 
-Just a js module that returns text translated to an invented languaje
+Just a js module that returns weight converted to pounds or kg depending on the case.
 
 ### Installing
 
@@ -29,7 +30,8 @@ If the option is 2, it will return a value converted from pounds to kg
 Any other case will return an exception
 
 ```
-convert(10, 1) // "your text translated"
+convert(10, 1) //10 kg are 22.0462 pounds
+convert(22, 2) //22 pounds are 9.97903 kg
 ```
 
 ## Running the tests
