@@ -1,11 +1,18 @@
 function converter(num, opt) {
-  if (opt == 1) {
-    return num * 2.20462;
-  } else if (opt == 0) {
-    return num / 2.20462;
-  } else {
-    return "Error";
-  }
-}
 
-exports.default = converter;
+  const unities = {
+    grlb: 0.00220462,
+    groz: 0.035274,
+    lbgr: 453.59285929009,
+    lboz: 16.000017259200017605,
+    ozlb: 0.0625,
+    ozgr: 28.3495
+  };
+
+  for (let unit in unities) {
+    if (unit === opt) {
+      return num * unities[unit];
+    }
+  }
+  return "Bad option";
+}
