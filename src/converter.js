@@ -16,3 +16,5 @@ function converter(num, opt) {
   }
   return "Bad option"
 }
+
+exports.default = converter
